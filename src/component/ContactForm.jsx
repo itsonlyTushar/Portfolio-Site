@@ -42,7 +42,7 @@ function ContactForm() {
   return (
     <section>
     <div id="contact" className='bg-[#FFEADB] border rounded-t-[4rem]'>
-      <h1 className='text-center text-8xl text-[#15252D] font-extrabold mb-9'>Contact Form</h1>
+      <h1 className='text-center text-7xl sm:text-8xl mt-6 text-[#15252D] font-extrabold mb-9'>Contact Form</h1>
       <div className='p-5 bg-[#15252D] border rounded-t-[4rem] my-10'>
         <form className='my-12' onSubmit={handleSubmit}>
           <div className='text-[#FFEADB] text-2xl'>
@@ -72,11 +72,11 @@ function ContactForm() {
               </div>
             <div className='flex flex-col'>
             <div className='flex items-center mb-8'>
-              <label htmlFor="phoneNumber">Contact No.</label>
+              <label htmlFor="phoneNumber">Contact</label>
               <input
                 value={phNumber}
                 onChange={(e) => setPhNumber(e.target.value)}
-                className='bg-[#CFD7D6] font-bold text-[#15252D] text-2xl border rounded-2xl p-2 mx-3 flex-grow'
+                className='bg-[#CFD7D6] font-bold text-[#15252D] text-[1.3rem] sm:text-2xl border rounded-2xl p-2 mx-4 flex-grow'
                 type="tel"
                 name='phoneNumber'
                 required
@@ -88,7 +88,7 @@ function ContactForm() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className='bg-[#CFD7D6] font-bold text-[#15252D] text-2xl border rounded-2xl p-2 mx-3 flex-grow'
+                className='bg-[#CFD7D6] font-bold text-[#15252D] text-[1.3rem] sm:text-2xl border rounded-2xl p-2 mx-3 flex-grow'
                 type="email"
                 name='email'
                 aria-required='true'

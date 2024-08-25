@@ -8,13 +8,6 @@ import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { IoLogoFirebase } from "react-icons/io5";
-import { SiMysql } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { DiAngularSimple } from "react-icons/di";
-import { SiExpress } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
 
 
 
@@ -58,13 +51,6 @@ const myProjects = [
         stacks: [<FaHtml5 />,<FaCss3Alt />,<FaReact />,<RiTailwindCssFill />],
         githubLink : 'https://github.com/itsonlyTushar/React-Projects/tree/main/Flash-Cards-App',
         live : 'https://flash-card-plum.vercel.app/'
-    },
-    {
-        title: 'Full Stack Projects Cooming Soon',
-        year: 2024,
-        description: "Full Stack Projects under making and will show here as soon as they're done. Many tech-stacks are yet to be learned",
-        stacks: [<IoLogoFirebase />, <SiMysql />,<SiPostgresql />,<DiAngularSimple />,<SiExpress />,<RiNextjsFill />,<SiMongodb />
-        ],
     }
 ];
 
@@ -83,8 +69,8 @@ function Timeline() {
             >
               <h3 className="vertical-timeline-element-title">{item.title}</h3>
               <p>{item.description}</p>
-              <div className='flex mt-4'>
-                <span className='text-2xl'>Tech stack : </span>
+              <div className='flex sm:flex  mt-4'>
+                <span className='text-xl'>Tech stack </span>  
                 {item.stacks.map((icon, iconIndex) => (
                   <span key={iconIndex} className="text-3xl mr-2">
                     {icon}

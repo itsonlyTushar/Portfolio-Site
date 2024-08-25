@@ -153,7 +153,7 @@ body{
 .toggle-button {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 7px;
   font-size: 30px;
   background: none;
   border: none;
@@ -168,10 +168,10 @@ body{
   top: 20px;
   right: -600px;
   height: 40px;
-  width: 500px;
-  background-color: #6ade95;
+  width: 600px;
+  background-color: #86EFAC;
   border-radius: 20px;
-  padding: 40px;
+  padding: 37px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,13 +183,27 @@ body{
   padding-left: 15px;
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
 }
+
+@media (max-width: 480px) {
+  .navbar a {
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .navbar{
+    width: 360px;
+    padding: 2.2rem;
+  }
+  
+
+  }
 
 
 
 /* Open State */
 .navbar.open {
-  right: 20px; /* Slide in to the right */
+  right: 20px; 
 }
