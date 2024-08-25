@@ -23,7 +23,7 @@ function Hero() {
       <section>
         <div className="relative z-10 flex flex-col items-start ml-10 text-white h-full justify-center"> 
           <h1 className="text-green-300 text-7xl sm:text-9xl font-extrabold tracking-wide mt-[10rem]">Hi, I'm Tushar,
-            <h1 className='text-white mb-5 hover:text-yellow-200'>a web developer</h1>  
+            <h1 className='text-white mb-5 hover:text-yellow-200'>a web developer<span className='text-[#86EFAC] hover:!text-white'>.</span></h1>  
           </h1>
           <div className='flex'>
             <div className='border border-yellow-100 bg-green-300 hover:bg-transparent hover:text-green-300 text-[#CD9876] font-semibold text-xl sm:text-2xl rounded-full w-[11rem] sm:w-[19rem] py-1 sm:py-6 px-9 cursor-pointer text-center'>

@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <button className="toggle-button" onClick={toggleNavbar}>
+      <button className="toggle-button outline-none" onClick={toggleNavbar}>
         <i className="fa-solid fa-bars bg-[#FFEADB] p-5 sm:p-6  border rounded-2xl text-[#15252D]"></i>
       </button>
       <nav>

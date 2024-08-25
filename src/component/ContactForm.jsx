@@ -53,7 +53,7 @@ function ContactForm() {
                 value={fname}
                 onChange={(e) => setFname(e.target.value)}
                 aria-required='true'
-                className='bg-[#CFD7D6] text-[#15252D] text-2xl font-bold border rounded-2xl p-2 mx-3 flex-grow'
+                className='bg-[#CFD7D6] outline-none text-[#15252D] text-2xl font-bold border rounded-2xl p-2 mx-3 flex-grow'
                 type="text"
                 name='firstName'
               />
@@ -65,7 +65,7 @@ function ContactForm() {
                 value={lname}
                 onChange={(e) => setLname(e.target.value)}
                 aria-required='true'
-                className= 'bg-[#CFD7D6] text-[#15252D] text-2xl font-bold border rounded-2xl p-2 mx-3 flex-grow'
+                className= 'bg-[#CFD7D6] outline-none text-[#15252D] text-2xl font-bold border rounded-2xl p-2 mx-3 flex-grow'
                 type="text"
                 name='lastName'
               />
@@ -76,7 +76,7 @@ function ContactForm() {
               <input
                 value={phNumber}
                 onChange={(e) => setPhNumber(e.target.value)}
-                className='bg-[#CFD7D6] font-bold text-[#15252D] text-[1.3rem] sm:text-2xl border rounded-2xl p-2 mx-4 flex-grow'
+                className='bg-[#CFD7D6] outline-none font-bold text-[#15252D] text-[1.3rem] sm:text-2xl border rounded-2xl p-2 mx-4 flex-grow'
                 type="tel"
                 name='phoneNumber'
                 required
@@ -88,7 +88,7 @@ function ContactForm() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className='bg-[#CFD7D6] font-bold text-[#15252D] text-[1.3rem] sm:text-2xl border rounded-2xl p-2 mx-3 flex-grow'
+                className='bg-[#CFD7D6] outline-none font-bold text-[#15252D] text-[1.3rem] sm:text-2xl border rounded-2xl p-2 mx-3 flex-grow'
                 type="email"
                 name='email'
                 aria-required='true'
@@ -101,7 +101,7 @@ function ContactForm() {
                 required
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
-                className='bg-[#CFD7D6] font-bold text-[#15252D] text-2xl border rounded-2xl p-2 mx-3 flex-grow'
+                className='bg-[#CFD7D6] outline-none font-bold text-[#15252D] text-xl border rounded-2xl p-2 mx-3 flex-grow'
                 type="text"
                 name='subject'
                 aria-required='true'
@@ -111,7 +111,7 @@ function ContactForm() {
                 required
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                className='bg-[#CFD7D6] font-semibold text-[#15252D] text-xl p-2 border rounded-2xl'
+                className='bg-[#CFD7D6] outline-none font-semibold text-[#15252D] text-xl p-2 border rounded-2xl'
                 id="message"
                 name='message'
                 cols="70"
