@@ -11,7 +11,7 @@ function About() {
     <section>
     <div id="about" className='flex justify-center my-10'>
       <div className=' bg-[#15252D] w-11/12 border rounded-t-[4rem]'>
-        <h1 className='text-[#FFEADB] mx-5 p-5 my-4 text-6xl sm:text-8xl font-extrabold hover:text-green-400'>
+        <h1 className='text-[#FFEADB] mx-5 p-5 my-4 text-6xl sm:text-9xl font-extrabold hover:text-green-400'>
           About Me
         </h1>
 

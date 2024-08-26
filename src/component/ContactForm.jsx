@@ -42,10 +42,10 @@ function ContactForm() {
   return (
     <section>
     <div id="contact" className='bg-[#FFEADB] border rounded-t-[4rem]'>
-      <h1 className='text-center text-7xl sm:text-8xl mt-6 text-[#15252D] font-extrabold mb-9'>Contact Form</h1>
+      <h1 className='text-center text-7xl sm:text-9xl mt-6 text-[#15252D] font-extrabold mb-9'>Contact Form</h1>
       <div className='p-5 bg-[#15252D] border rounded-t-[4rem] my-10'>
         <form className='my-12' onSubmit={handleSubmit}>
-          <div className='text-[#FFEADB] text-2xl'>
+          <div className='text-[#FFEADB] text-lg'>
             <div className='flex items-center mb-8'>
               <label htmlFor="firstName">First Name</label>
               <input
@@ -120,7 +120,7 @@ function ContactForm() {
             <div className='flex justify-center'>
               <button
                 type='submit'
-                className='my-12 items-center border border-yellow-100 bg-green-300 hover:bg-transparent hover:text-green-300 text-white font-bold text-lg rounded-full w-[40%] py-5 px-9 cursor-pointer text-center'
+                className='my-12 items-center border border-yellow-100 bg-green-300 hover:bg-transparent hover:text-green-300 text-[#CD9876] font-bold text-lg rounded-full w-[40%] py-5 px-9 cursor-pointer text-center'
               >
                 Submit
               </button>

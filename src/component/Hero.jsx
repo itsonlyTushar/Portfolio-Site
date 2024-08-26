@@ -22,7 +22,7 @@ function Hero() {
       </main>
       <section>
         <div className="relative z-10 flex flex-col items-start ml-10 text-white h-full justify-center"> 
-          <h1 className="text-green-300 text-7xl sm:text-9xl font-extrabold tracking-wide mt-[10rem]">Hi, I'm Tushar,
+          <h1 className="text-green-300 text-6xl sm:text-9xl font-extrabold tracking-wide mt-[10rem]">Hi, I'm Tushar,
             <h1 className='text-white mb-5 hover:text-yellow-200'>a web developer<span className='text-[#86EFAC] hover:!text-white'>.</span></h1>  
           </h1>
           <div className='flex'>

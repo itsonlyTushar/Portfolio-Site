@@ -10,7 +10,7 @@ function Projects() {
     <>
     <section>
      <div id="projects" 
-          className='flex justify-center text-7xl sm:text-8xl text-center font-extrabold text-[#15252D] my-24 mx-20' >
+          className='flex justify-center text-7xl sm:text-9xl text-center font-extrabold text-[#15252D] my-24 mx-20' >
         <h2 className='text-center'>
             Projects
         </h2>
